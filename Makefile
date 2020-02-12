@@ -10,8 +10,6 @@ start-pg:
 stop-pg:
 	docker-compose stop postgres
 	docker-compose rm -f postgres
-	docker-compose up -d postgres
-	docker-compose logs -f postgres
 
 ## Run node app
 
