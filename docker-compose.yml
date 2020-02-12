@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+
+    postgres:
+        image: fetchq/fetchq:10.4-1.3.0
+        ports:
+            - 5432:5432
+        environment:
+            POSTGRES_USER: berlin
+            POSTGRES_PASSWORD: berlin
+            POSTGRES_DB: berlin
+        volumes:
+            - ${HUMBLE_DATA}/pg:/var/lib/postgresql/data
+            - ${HUMBLE_BACKUP}/pg:/backup
+        restart: always
