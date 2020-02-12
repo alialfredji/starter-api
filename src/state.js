@@ -6,16 +6,16 @@
 export const services = [
     require('@forrestjs/service-env'),
     require('@forrestjs/service-logger'),
-    require('@forrestjs/service-express'),
-    require('@forrestjs/service-express-graphql'),
-    require('@forrestjs/service-postgres'),
+    // require('@forrestjs/service-express'),
+    // require('@forrestjs/service-express-graphql'),
+    // require('@forrestjs/service-postgres'),
 ]
 
 export const features = [
     // require('./features/foocoding-ep1'),
     // require('./features/foocoding-ep2'),
     // require('./features/foocoding-ep3'),
-    require('./features/foocoding-ep4'),
+    // require('./features/foocoding-ep4'),
 ]
 
 /****

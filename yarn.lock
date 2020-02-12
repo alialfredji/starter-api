@@ -1006,7 +1006,7 @@
     "@babel/runtime" "^7.5.5"
     "@marcopeg/dotted" "^0.2.0"
 
-"@forrestjs/package-universal-dev@^3.7.0":
+"@forrestjs/package-universal-dev@^3.9.0":
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/@forrestjs/package-universal-dev/-/package-universal-dev-3.9.0.tgz#85e71f2a36f2eb3d54759340f5d1eaa0c9008cd3"
   integrity sha512-oMHr02RheVFP9LY4J2s9KY8tXuN80YeRH7OXQAWrB+Hnt9sZT2APqGKg23Y0q0O+AfShj+B78q6hnEgkM403/w==

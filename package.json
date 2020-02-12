@@ -9,7 +9,8 @@
     "start:dev": "cross-env NODE_ENV=development nodemon --watch src -e js --watch build/src index",
     "build": "cross-env NODE_ENV=production babel src --out-dir build/src",
     "----- // CLEANING SCRIPTS // -----": "",
-    "clean:npm": "rm -rf ./node_modules"
+    "clean:npm": "rm -rf ./node_modules",
+    "clean:build": "rm -rf ./build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,15 +37,16 @@
   ],
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
+    "isomorphic-fetch": "^2.2.1",
+    "graphql-type-json": "^0.3.1",
+    "@forrestjs/hooks": "^3.9.0",
     "@forrestjs/service-env": "^3.9.0",
+    "@forrestjs/service-logger": "^3.9.0",
     "@forrestjs/service-express": "^3.9.0",
     "@forrestjs/service-express-graphql": "^3.9.0",
-    "@forrestjs/service-logger": "^3.9.0",
-    "@forrestjs/service-postgres": "^3.9.0",
-    "graphql-type-json": "^0.3.1",
-    "isomorphic-fetch": "^2.2.1"
+    "@forrestjs/service-postgres": "^3.9.0"
   },
   "devDependencies": {
-    "@forrestjs/package-universal-dev": "^3.7.0"
+    "@forrestjs/package-universal-dev": "^3.9.0"
   }
 }

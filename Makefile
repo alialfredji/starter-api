@@ -21,11 +21,9 @@ dev-app:
 prod-app:
 	yarn && yarn start
 
-
-## Reset project
+## Reset node project
 
 reset:
-	rm -rf data
 	rm -rf build
 	rm -rf node_modules
 	
