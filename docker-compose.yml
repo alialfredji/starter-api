@@ -6,10 +6,10 @@ services:
         ports:
             - 5432:5432
         environment:
-            POSTGRES_USER: berlin
-            POSTGRES_PASSWORD: berlin
-            POSTGRES_DB: berlin
+            POSTGRES_USER: ${PG_USERNAME:-berlin}
+            POSTGRES_PASSWORD: ${PG_PASSWORD:-berlin}
+            POSTGRES_DB: ${PG_DATABASE:-berlin}
         volumes:
-            - ${HUMBLE_DATA}/pg:/var/lib/postgresql/data
-            - ${HUMBLE_BACKUP}/pg:/backup
+            - ${HUMBLE_DATA:-./data}/pg:/var/lib/postgresql/data
+            - ${HUMBLE_BACKUP:-./data/backup}/pg:/backup
         restart: always

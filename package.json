@@ -36,12 +36,13 @@
   ],
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "isomorphic-fetch": "^2.2.1",
-    "@forrestjs/service-logger": "^3.9.0",
     "@forrestjs/service-env": "^3.9.0",
     "@forrestjs/service-express": "^3.9.0",
     "@forrestjs/service-express-graphql": "^3.9.0",
-    "@forrestjs/service-postgres": "^3.9.0"
+    "@forrestjs/service-logger": "^3.9.0",
+    "@forrestjs/service-postgres": "^3.9.0",
+    "graphql-type-json": "^0.3.1",
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
     "@forrestjs/package-universal-dev": "^3.7.0"

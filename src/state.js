@@ -15,6 +15,7 @@ export const features = [
     // require('./features/foocoding-ep1'),
     // require('./features/foocoding-ep2'),
     // require('./features/foocoding-ep3'),
+    require('./features/foocoding-ep4'),
 ]
 
 /****
