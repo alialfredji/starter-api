@@ -12,11 +12,13 @@ export const services = [
 ]
 
 export const features = [
-    require('./features/example-hooks-ep1'),
-    require('./features/example-hooks-ep2'),
-    require('./features/example-hooks-ep3'),
-    require('./features/example-express-ep1'),
-    require('./features/example-express-graphql-ep1'),
+    // require('./features/examples/hooks-ep1'),
+    // require('./features/examples/hooks-ep2'),
+    // require('./features/examples/hooks-ep3'),
+    // require('./features/examples/express-ep1'),
+    // require('./features/examples/express-graphql-ep1'),
+    // require('./features/examples/example-feature-file'),
+    // require('./features/__myfirstfeature'),
 ]
 
 /****

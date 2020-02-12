@@ -13,7 +13,7 @@ import { FEATURE } from '@forrestjs/hooks'
 */
 
 // define a name for the feature
-const FEATURE_NAME = `${FEATURE} foocoding-ep1`
+const FEATURE_NAME = `${FEATURE} examples/hooks-ep1`
 
 // below we define variables that can be used in action listeners
 const hooks = {
