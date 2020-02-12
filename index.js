@@ -6,14 +6,14 @@
  */
 if (process.env.NODE_ENV === 'production') {
     require('@babel/polyfill');
-    require('./build/src/boot');
+    require('./build/src');
 /**
  * Development Run
  */
 } else {
     require('@babel/polyfill');
     require('@babel/register');
-    require('./src/boot');
+    require('./src');
 }
 
 // Let Docker exit on Ctrl+C
